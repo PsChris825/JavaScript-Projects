@@ -3,7 +3,7 @@ function Age_Function() {
     var Age, Can_drive;
     Age = document.getElementById("Age").value;
     Can_drive = (Age < 16) ? "You are too young":"You are old enough";
-    document.getElementById("drive").innerHTML = Can_drive + " to drive.";
+    document.getElementById("Drive").innerHTML = Can_drive + " to drive.";
 }
 
 
