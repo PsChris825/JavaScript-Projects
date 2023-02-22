@@ -14,6 +14,12 @@ function slice_method() {
     document.getElementById("Slice").innerHTML = Section;
 }
 
+//toString() method
+function toString_method() {
+    var x = 249;
+    document.getElementById("Number_to_string").innerHTML = x.toString();
+}
+
 //toPercision() method
 function percision_method() {
     var x = 121423536543.3437497348712394;
